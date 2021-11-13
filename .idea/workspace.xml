@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nefuSpider/nefuSpider/spiders/icec.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/nefuSpider/spiders/icec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nefuSpider/xwzx.htm" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/xwzx.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,11 +43,22 @@
       <option name="presentableId" value="Default" />
       <updated>1636787231465</updated>
       <workItem from="1636787234335" duration="1796000" />
-      <workItem from="1636789066443" duration="1044000" />
+      <workItem from="1636789066443" duration="2162000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
