@@ -8,4 +8,4 @@ class IcecSpider(scrapy.Spider):
 
     def parse(self, response):
         filename = "xwzx.htm"
-        open(filename, 'w').write(response.body)
+        open(filename, 'wb+').write(response.body)  # need to be wb+, or treated as str -> fail
