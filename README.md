@@ -12,3 +12,7 @@
 内容
 
 `scrapy crawl icec_content -o titles.json`
+
+机电学院
+
+`scrapy crawl cmee_content -o titles.json`
