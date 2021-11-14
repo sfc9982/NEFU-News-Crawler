@@ -6,7 +6,7 @@ NEXT_PAGE_NUM = 1
 
 class IcecSpider(scrapy.Spider):
     name = "icec_test"
-    start_urls = ['https://icec.nefu.edu.cn/index/xwzx/1.htm']
+    start_urls = ['https://cmee.nefu.edu.cn/index/xyxw/1.htm']
 
     def parse(self, response):
         for href in response.xpath("//li[@id]"):
@@ -18,9 +18,9 @@ class IcecSpider(scrapy.Spider):
         NEXT_PAGE_NUM = NEXT_PAGE_NUM + 1
         if NEXT_PAGE_NUM <= 32 + 1:
             if NEXT_PAGE_NUM == 32 + 1:
-                next_url = 'https://icec.nefu.edu.cn/index/xwzx.htm'
+                next_url = 'https://cmee.nefu.edu.cn/index/xwzx.htm'
             else:
-                next_url = 'https://icec.nefu.edu.cn/index/xwzx/%s.htm' % NEXT_PAGE_NUM
+                next_url = 'https://cmee.nefu.edu.cn/index/xyxw/%s.htm' % NEXT_PAGE_NUM
             yield scrapy.Request(next_url, callback=self.parse)
 
     def parse_dir_contents(self, response):

@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/nefuSpider/spiders/cmee_content.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nefuSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nefuSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icec.json" beforeDir="false" afterPath="$PROJECT_DIR$/icec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titles.json" beforeDir="false" afterPath="$PROJECT_DIR$/titles.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nefuSpider/spiders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -60,6 +58,11 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\NEFU-News-Crawler\nefuSpider\spiders" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -73,7 +76,7 @@
       <workItem from="1636851202745" duration="1303000" />
       <workItem from="1636852545768" duration="742000" />
       <workItem from="1636853325569" duration="5002000" />
-      <workItem from="1636861808702" duration="3693000" />
+      <workItem from="1636861808702" duration="5401000" />
     </task>
     <servers />
   </component>
