@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NEFU-News-Crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NEFU-News-Crawler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nefuSpider/nefuSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/nefuSpider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nefuSpider/nefuSpider/spiders/icec.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/nefuSpider/spiders/icec.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nefuSpider" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,6 +54,7 @@
       <workItem from="1636787234335" duration="1796000" />
       <workItem from="1636789066443" duration="3288000" />
       <workItem from="1636851202745" duration="1303000" />
+      <workItem from="1636852545768" duration="742000" />
     </task>
     <servers />
   </component>
