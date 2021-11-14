@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" afterDir="false" />
-    </list>
+    <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,7 @@
       <workItem from="1636851202745" duration="1303000" />
       <workItem from="1636852545768" duration="742000" />
       <workItem from="1636853325569" duration="5002000" />
-      <workItem from="1636861808702" duration="1719000" />
+      <workItem from="1636861808702" duration="2263000" />
     </task>
     <servers />
   </component>
