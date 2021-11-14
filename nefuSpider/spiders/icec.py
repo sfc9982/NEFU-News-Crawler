@@ -38,4 +38,13 @@ class IcecSpider(scrapy.Spider):
 
         # 直接返回最后数据
         return items
-        # pass
+
+    def parse_dir_contents(self, response):
+        item = NefuspiderItem()
+
+        item['date'] = response.xpath("//div[@class='detail_zy_title']/p/text()").extract_first()
+        item['href'] = response
+        item['title'] = response.xpath("//div[@class='detail_zy_title']/h1/text()").extract_first()
+        data = response.xpath("//div[@class='detail_zy_c pb30 mb30']")
+        item['content'] = data[0].xpath('string(.)').extract()[0]
+        return item
