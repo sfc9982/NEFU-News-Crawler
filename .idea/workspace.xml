@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/nefuSpider/spiders/cmee_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/icec.json" beforeDir="false" afterPath="$PROJECT_DIR$/icec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/cmee_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/cmee_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +79,9 @@
       <workItem from="1636852545768" duration="742000" />
       <workItem from="1636853325569" duration="5002000" />
       <workItem from="1636861808702" duration="5401000" />
+      <workItem from="1636870526351" duration="38000" />
+      <workItem from="1636870651636" duration="1578000" />
+      <workItem from="1636886767337" duration="137000" />
     </task>
     <servers />
   </component>

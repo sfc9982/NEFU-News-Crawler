@@ -5,7 +5,7 @@ NEXT_PAGE_NUM = 1
 
 
 class IcecSpider(scrapy.Spider):
-    name = "icec_test"
+    name = "icec"
     start_urls = ['https://icec.nefu.edu.cn/index/xwzx/1.htm']
 
     def parse(self, response):

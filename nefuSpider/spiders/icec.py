@@ -3,7 +3,7 @@ from nefuSpider.items import NefuspiderItem
 
 
 class IcecSpider(scrapy.Spider):
-    name = 'icec'
+    name = 'icec_old'
     allowed_domains = ['icec.nefu.edu.cn']
     start_urls = ['https://icec.nefu.edu.cn/index/xwzx.htm']
 
