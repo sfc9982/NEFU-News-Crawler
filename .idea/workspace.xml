@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titles.json" beforeDir="false" afterPath="$PROJECT_DIR$/titles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <workItem from="1636851202745" duration="1303000" />
       <workItem from="1636852545768" duration="742000" />
       <workItem from="1636853325569" duration="5002000" />
-      <workItem from="1636861808702" duration="1396000" />
+      <workItem from="1636861808702" duration="1719000" />
     </task>
     <servers />
   </component>

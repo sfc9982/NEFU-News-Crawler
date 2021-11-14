@@ -30,7 +30,7 @@ class IcecSpider(scrapy.Spider):
             print(name, title, para)
 
             # xpath返回的是包含一个元素的列表
-            item['name'] = name[0]
+            # item['name'] = name[0]
             item['title'] = title[0]
             item['para'] = para[0]
 
