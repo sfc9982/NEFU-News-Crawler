@@ -1,5 +1,5 @@
 import scrapy
-from nefuSpider.item import NefuspiderItem
+from nefuSpider.items import NefuspiderItem
 
 
 class IcecSpider(scrapy.Spider):
@@ -18,7 +18,7 @@ class IcecSpider(scrapy.Spider):
 
         for each in response.xpath("//*[@id]/a"):
             # 将我们得到的数据封装到一个 `ItcastItem` 对象
-            item = nefuSpider()
+            item = NefuspiderItem()
             # extract()方法返回的都是unicode字符串
             name = each.xpath("@title/text()").extract()
             title = each.xpath("@title/text()").extract()
