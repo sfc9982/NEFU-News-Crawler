@@ -16,13 +16,18 @@ class IcecSpider(scrapy.Spider):
         # 存放新闻信息的集合
         items = []
 
-        for each in response.xpath("//*[@id]/a"):
+        for each in response.xpath("//li[@id]"):
+            print('---------------')
+            print(each)
             # 将我们得到的数据封装到一个 `ItcastItem` 对象
             item = NefuspiderItem()
             # extract()方法返回的都是unicode字符串
-            name = each.xpath("@title/text()").extract()
-            title = each.xpath("@title/text()").extract()
-            para = each.xpath("p/text()").extract()
+            name = each.xpath("a/@title").extract()
+            title = each.xpath("a/text()").extract()
+            # para = each.xpath("p/text()").extract()
+            para = 'biubiubiu'
+
+            print(name, title, para)
 
             # xpath返回的是包含一个元素的列表
             item['name'] = name[0]
