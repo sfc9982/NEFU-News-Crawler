@@ -13,6 +13,10 @@ SPIDER_MODULES = ['nefuSpider.spiders']
 NEWSPIDER_MODULE = 'nefuSpider.spiders'
 
 
+# gbk is NOT supported (Comment by Repo Author, not Scrapy one)
+FEED_EXPORT_ENCODING = 'utf-8'
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'nefuSpider (+http://www.yourdomain.com)'
 

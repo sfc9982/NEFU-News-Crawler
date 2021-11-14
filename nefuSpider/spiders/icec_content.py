@@ -22,9 +22,9 @@ class IcecSpider(scrapy.Spider):
 
     def parse_dir_contents(self, response):
         item = NefuspiderItem()
-        item['date'] = response.xpath("//div[@class='sub_cont']/form/div[@class='wzxxys']/text()").extract_first()
-        item['href'] = response
         item['title'] = response.xpath("//div[@class='sub_cont']/form/h2/text()").extract_first()
+        item['date'] = response.xpath("//div[@class='sub_cont']/form/div[@class='wzxxys']/text()").extract_first()
+        # item['href'] = response
         data = response.xpath("//div[@class='sub_about']")
         item['content'] = data[0].xpath('string(.)').extract()[0]
         yield item

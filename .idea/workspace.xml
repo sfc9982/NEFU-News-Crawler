@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="" />
+    <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/icec_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titles.json" beforeDir="false" afterPath="$PROJECT_DIR$/titles.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +73,7 @@
       <workItem from="1636851202745" duration="1303000" />
       <workItem from="1636852545768" duration="742000" />
       <workItem from="1636853325569" duration="5002000" />
-      <workItem from="1636861808702" duration="2263000" />
+      <workItem from="1636861808702" duration="3693000" />
     </task>
     <servers />
   </component>

@@ -8,3 +8,7 @@
 ### Fetch News Title
 
 `scrapy crawl icec -o titles.json`
+
+内容
+
+`scrapy crawl icec_content -o titles.json`
