@@ -11,7 +11,6 @@ class NewsSpider(scrapy.Spider):
         '=&_vc=&_vb=&_ve=&searchScope=1&type=-1']
 
     def parse(self, response):
-        items = []
         for each in response.xpath("//div[@class='txt']"):
             item = MainSiteNewsItem()
             title = each.xpath("h4/a/text()").extract_first()
@@ -20,11 +19,10 @@ class NewsSpider(scrapy.Spider):
             item['link'] = link
             print('-------------')
             print(item)
-            items.append(item)
+            yield item
         global NEXT_PAGE_NUM
         NEXT_PAGE_NUM = NEXT_PAGE_NUM + 1
         if NEXT_PAGE_NUM <= 5:
             next_url = 'https://news.nefu.edu.cn/supersearch.jsp?wbtreeid=1001&currentnum=%s&_vt=&_vn=6YKu566x&_vk' \
                        '=&_vm=&_va=&_vs=&_vc=&_vb=&_ve=&searchScope=1&type=-1' % NEXT_PAGE_NUM
-            scrapy.Request(next_url, callback=self.parse)
-        return items
+            yield scrapy.Request(next_url, callback=self.parse)

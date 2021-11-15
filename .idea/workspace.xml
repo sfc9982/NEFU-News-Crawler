@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/nefuSpider/spiders/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icec.json" beforeDir="false" afterPath="$PROJECT_DIR$/icec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nefuSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <workItem from="1636886767337" duration="3293000" />
       <workItem from="1636964183171" duration="45000" />
       <workItem from="1636964244851" duration="2059000" />
-      <workItem from="1636968595997" duration="2873000" />
+      <workItem from="1636968595997" duration="3403000" />
     </task>
     <servers />
   </component>
