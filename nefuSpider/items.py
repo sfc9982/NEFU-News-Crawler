@@ -14,3 +14,8 @@ class NefuspiderItem(scrapy.Item):
     # href = scrapy.Field()
     content = scrapy.Field()
     # pass
+
+
+class MainSiteNewsItem(scrapy.Item):
+    title = scrapy.Field()
+    link = scrapy.Field()
