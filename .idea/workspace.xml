@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940e5fc6-b8d2-460a-8be7-155babd88de2" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/nefuSpider/spiders/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/nefuSpider/spiders/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nefuSpider/spiders/people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="background.image.plus" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -80,7 +81,8 @@
       <workItem from="1636886767337" duration="3293000" />
       <workItem from="1636964183171" duration="45000" />
       <workItem from="1636964244851" duration="2059000" />
-      <workItem from="1636968595997" duration="3403000" />
+      <workItem from="1636968595997" duration="5784000" />
+      <workItem from="1637061365726" duration="935000" />
     </task>
     <servers />
   </component>
